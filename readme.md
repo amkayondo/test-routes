@@ -15,4 +15,4 @@ The base domain when pointed to this, the routes point to the respective project
 
 <img src='https://raw.githubusercontent.com/sreeramofficial/turborepo-starter/main/idea.png'/>
 
-Inspired from: https://medium.sreeram.io/the-toughest-engineering-challenge-i-have-faced-8fc415167e20?sk=a1d9e08957d1f14b26175bd292771ff0
+Inspired from this [idea](https://medium.sreeram.io/the-toughest-engineering-challenge-i-have-faced-8fc415167e20?sk=a1d9e08957d1f14b26175bd292771ff0). 
