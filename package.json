@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "repository": "git@github.com:sreeramofficial/project-mercury.git",
-  "author": "Siri <sreeram.com@gmail.com>",
+  "author": "Sreeram Padmanabhan <sreeram.com@gmail.com>",
   "license": "MIT",
   "workspaces": [
     "apps/*",
