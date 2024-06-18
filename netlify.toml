@@ -1,35 +1,17 @@
+# Redirect API requests to serverless functions
 [[redirects]]
-    from = "/api"
-    to = "/api"
+    from = "/api/*"
+    to = "/.netlify/functions/:splat"
     status = 200
-    force = true
 
+# Example of handling custom routes - adjust based on the use case of the 'route' folder
 [[redirects]]
-    from = "/api/:match*"
-    to = "/api/:match*"
+    from = "/special-route/*"
+    to = "/.netlify/functions/special-handler/:splat"
     status = 200
-    force = true
 
+# Serve static content from the 'www' folder for any other requests
 [[redirects]]
-    from = "/route"
-    to = "/route"
+    from = "/www/*"
+    to = "/:splat"
     status = 200
-    force = true
-
-[[redirects]]
-    from = "/route/:match*"
-    to = "/route/:match*"
-    status = 200
-    force = true
-
-[[redirects]]
-    from = "/"
-    to = "/"
-    status = 200
-    force = true
-
-[[redirects]]
-    from = "/:match*"
-    to = "/:match*"
-    status = 200
-    force = true
