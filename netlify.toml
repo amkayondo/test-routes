@@ -1,35 +1,35 @@
 [[redirects]]
     from = "/api"
-    to = "https://project3.vercel.app/api"
+    to = "https://poetic-raindrop-e6e98a.netlify.app/api"
     status = 200
     force = true
 
 [[redirects]]
     from = "/api/:match*"
-    to = "https://project3.vercel.app/api/:match*"
+    to = "https://poetic-raindrop-e6e98a.netlify.app/api/:match*"
     status = 200
     force = true
 
 [[redirects]]
     from = "/route"
-    to = "https://project2.vercel.app/route"
+    to = "https://poetic-raindrop-e6e98a.netlify.app/route"
     status = 200
     force = true
 
 [[redirects]]
     from = "/route/:match*"
-    to = "https://project2.vercel.app/route/:match*"
+    to = "https://poetic-raindrop-e6e98a.netlify.app/route/:match*"
     status = 200
     force = true
 
 [[redirects]]
     from = "/"
-    to = "https://project1.vercel.app/"
+    to = "https://poetic-raindrop-e6e98a.netlify.app/"
     status = 200
     force = true
 
 [[redirects]]
     from = "/:match*"
-    to = "https://project1.vercel.app/:match*"
+    to = "https://poetic-raindrop-e6e98a.netlify.app/:match*"
     status = 200
     force = true
