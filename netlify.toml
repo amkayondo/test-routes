@@ -1,35 +1,35 @@
 [[redirects]]
     from = "/api"
-    to = "https://poetic-raindrop-e6e98a.netlify.app/api"
+    to = "https://am34.netlify.app/api"
     status = 200
     force = true
 
 [[redirects]]
     from = "/api/:match*"
-    to = "https://poetic-raindrop-e6e98a.netlify.app/api/:match*"
+    to = "https://am34.netlify.app/api/:match*"
     status = 200
     force = true
 
 [[redirects]]
     from = "/route"
-    to = "https://poetic-raindrop-e6e98a.netlify.app/route"
+    to = "https://am34.netlify.app/route"
     status = 200
     force = true
 
 [[redirects]]
     from = "/route/:match*"
-    to = "https://poetic-raindrop-e6e98a.netlify.app/route/:match*"
+    to = "https://am34.netlify.app/route/:match*"
     status = 200
     force = true
 
 [[redirects]]
     from = "/"
-    to = "https://poetic-raindrop-e6e98a.netlify.app/"
+    to = "https://am34.netlify.app/"
     status = 200
     force = true
 
 [[redirects]]
     from = "/:match*"
-    to = "https://poetic-raindrop-e6e98a.netlify.app/:match*"
+    to = "https://am34.netlify.app/:match*"
     status = 200
     force = true
