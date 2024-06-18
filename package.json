@@ -16,8 +16,7 @@
     "lint": "turbo run lint",
     "type": "turbo run type",
     "sanity": "turbo run sanity",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "deploy": "turbo run build --scope=app --includeDependencies --no-deps"
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
     "eslint-config-custom": "*",

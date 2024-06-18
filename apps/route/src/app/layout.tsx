@@ -1,6 +1,6 @@
 import './globals.css'
 
-import { Suspense } from 'react'
+// import { Suspense } from 'react'
 
 export const metadata = {
   title: 'Title',
