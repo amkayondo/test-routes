@@ -1,35 +1,35 @@
 [[redirects]]
     from = "/api"
-    to = "https://am34.netlify.app/api"
+    to = "/api"
     status = 200
     force = true
 
 [[redirects]]
     from = "/api/:match*"
-    to = "https://am34.netlify.app/api/:match*"
+    to = "/api/:match*"
     status = 200
     force = true
 
 [[redirects]]
     from = "/route"
-    to = "https://am34.netlify.app/route"
+    to = "/route"
     status = 200
     force = true
 
 [[redirects]]
     from = "/route/:match*"
-    to = "https://am34.netlify.app/route/:match*"
+    to = "/route/:match*"
     status = 200
     force = true
 
 [[redirects]]
     from = "/"
-    to = "https://am34.netlify.app/"
+    to = "/"
     status = 200
     force = true
 
 [[redirects]]
     from = "/:match*"
-    to = "https://am34.netlify.app/:match*"
+    to = "/:match*"
     status = 200
     force = true
